@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+    
+    <!-- My Style CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
+    <title>Cartoon Giphy API</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center text-black">The Coolest Cartoon Show Gifs on the Planet!</h1>
+
+        <div class="row">
+            <div id="buttons-view" class="col-12"></div>
+        </div>
+
+        <form id="searchTerm">
+            <label for="search-input" class="text-white">Add Another Awesome Cartoon Show!</label>
+            <input type="text" id="search-input"><br>
+
+            <!-- Button triggers new cartoon show to be added -->
+            <input id="add-cartoon" class="btn btn-info" type="submit" value="Search">
+        </form>
+        <br>
+        <div class="row" id="gifs-appear-here">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/giph-generator.js"></script>
+</body>
+
+</html>
